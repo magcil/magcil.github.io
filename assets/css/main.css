@@ -3163,6 +3163,34 @@ input, select, textarea {
 
 		}
 
+/* Publications */
+
+	.pub-years {
+		margin: 0 0 3em 0;
+		font-size: 0.85em;
+		line-height: 2.25;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+	}
+
+		.pub-years a {
+			border-bottom: 0;
+			padding: 0.15em 0;
+		}
+
+	#main h2[id^="y2"] {
+		margin: 0 0 1em 0;
+		padding-bottom: 0.4em;
+		font-size: 1.35em;
+		letter-spacing: 0.2em;
+		color: #e86a32;
+		border-bottom: solid 1px rgba(210, 215, 217, 0.75);
+	}
+
+	#main h2[id^="y2"] + .table-wrapper table tbody tr td:last-child {
+		white-space: nowrap;
+	}
+
 /* Footer */
 
 	#footer {
