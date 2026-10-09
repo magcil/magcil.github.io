@@ -73,65 +73,104 @@
 						<div class="inner">
 							<h1>Research Areas</h1>
 
-							<!-- Text -->
-								<section>
-									<p>Our research spans the following multimodal application domains: 
+							<p>MagCIL works on multimodal machine learning for audio, speech, music, image and video. Four
+								core areas carry most of our scientific output; each of them reaches practice through a small
+								number of application domains, where the problem, the data and the constraints come from a real
+								setting rather than a benchmark.</p>
 
-									<h4>ML for Video analysis</h4>
-									We provide solutions that combine machine learning applied on all aspects of video (sound, image and  accompanying text), to achieve several video analysis applications:
-									<ul>
-										<li> Video summarization
-										<li> Video classification and retrieval
-										<li> Multimodal content-based video / movie recommendation and profiling
-										<li> Human recognition and human activity recognition
-									</ul>
+							<section>
+								<h2>Core areas</h2>
+								<div class="areas">
+									<article class="area">
+										<h3>Speech Analytics</h3>
+										<p>We model both what people say and how they say it, with an emphasis on behaviour that survives real-world conditions: noise, channel shift, accent and language.</p>
+										<ul>
+											<li>Speech emotion recognition and its robustness under distribution shift: benchmarking self-supervised encoders against acoustic corruption (ICASSP 2026), and the RobuSER benchmark (ACII 2024)</li>
+											<li>Paralinguistics: speaking style and public-speaking quality, filled-pause detection, engagement and speaker diarization</li>
+											<li>Clinical and wellbeing speech: cognitive decline and Alzheimer's detection, depression estimation, relapse detection from wearable-derived signals</li>
+											<li>Speech recognition for Greek and other low-resource settings, including domain-specific transcription</li>
+											<li>Expressive and controllable speech synthesis, and the detection of synthetic speech</li>
+										</ul>
+									</article>
+									<article class="area">
+										<h3>Music Information Retrieval and Music Generation</h3>
+										<p>A long-running line of work on musical content, increasingly focused on idioms that mainstream models represent poorly, Greek traditional, folk and laiko music among them.</p>
+										<ul>
+											<li>Datasets for underrepresented repertoires, including Lyra for Greek traditional and folk music (ISMIR 2022), and ongoing work on modal and rhythmic annotation of Greek laiko</li>
+											<li>Recognition of genre, instrument, playing technique, regional style, mood and emotion</li>
+											<li>Audio fingerprinting for song identification and music-use monitoring, evaluated under real-world noise and signal processing</li>
+											<li>Text-to-audio and text-to-music generation, with current work on inference-time verification and scaling of diffusion and flow-matching models</li>
+											<li>Symbolic music generation with interpretable attribute control through latent-space disentanglement (EUSIPCO 2026)</li>
+										</ul>
+									</article>
+									<article class="area">
+										<h3>Computer Vision and Image Generation</h3>
+										<p>Representation learning and generative modelling for images and video, built on vision foundation models and self-supervised pretraining.</p>
+										<ul>
+											<li>Latent diffusion and the entanglement of global and local semantics for controllable image generation (ECCV 2026)</li>
+											<li>Self-supervised and few-shot visual representation learning, and multi-task classification of visual attributes</li>
+											<li>Video understanding: summarization, classification and retrieval, shot-type and style analysis</li>
+											<li>Multimodal fusion of sound, image and text for content characterization and recommendation</li>
+											<li>Human activity, gesture and intention recognition, including real-time human&ndash;robot settings</li>
+										</ul>
+									</article>
+									<article class="area">
+										<h3>Audio Event Recognition and Acoustic Scene Analysis</h3>
+										<p>Non-speech, non-music audio: what a recording tells you about the place it was made in and the events that happened there.</p>
+										<ul>
+											<li>Sound event detection and acoustic scene classification, with open datasets such as ARCHEO and the Athens Urban Soundscape (ATHUS)</li>
+											<li>Urban soundscape monitoring at scale, from crowdsourced recordings to a spatiotemporal map</li>
+											<li>Bioacoustics, including unsupervised analysis of mouse vocal communication with the Jarvis Lab at Rockefeller University</li>
+											<li>Few-shot and prototypical learning for acoustic classes with very little labelled data (MLSP 2025)</li>
+											<li>Adversarial robustness of state-of-the-art audio transformers against black-box attacks (EUSIPCO 2025)</li>
+										</ul>
+									</article>
+								</div>
+							</section>
 
-									<h4>Music information retrieval</h4>
-									We have years' experience in build models for analyzing musical content for various subdomains such as:
-									<ul>
-										<li> Musical genre classification
-										<li> Recognition of music mood and emotion
-										<li> Content-based music retrieval and recommendation
-									</ul>
+							<section>
+								<h2>Application domains</h2>
+								<div class="domains">
+									<article class="domain">
+										<h3>Culture and Cultural Heritage</h3>
+										<p>AI for Greek musical and linguistic heritage: semantic infrastructure for traditional and laiko music, automatic transcription and indexing of archival speech, emotion in theatrical performance, and the urban soundscape treated as living heritage. Carried out largely within the Language &amp; Culture vertical of the PHAROS AI Factory, with the Ministry of Culture among the interested parties.</p>
+									</article>
+									<article class="domain">
+										<h3>Health and Wellbeing</h3>
+										<p>Speech and physiological signals as low-cost markers of health: cognitive decline and dementia, depression, mental-health relapse, and unobtrusive monitoring in assisted-living settings. The same work underpins accessibility applications such as real-time subtitling for people with hearing loss.</p>
+									</article>
+									<article class="domain">
+										<h3>Defence and Security</h3>
+										<p>Frugal and robust AI for settings where data is scarce, compute is constrained and models are adversarially probed: few-shot acoustic recognition, adversarial robustness evaluation, AI-assisted annotation pipelines, and paralinguistic triage at borders.</p>
+									</article>
+									<article class="domain">
+										<h3>Environment and Sustainability</h3>
+										<p>Acoustic and remote sensing for environmental monitoring: urban soundscape quality, transport-related air pollution, marine traffic and environmental risk in the Aegean, and the attribution of chemical pollution sources from screening data.</p>
+									</article>
+									<article class="domain">
+										<h3>Trustworthy and Synthetic Media</h3>
+										<p>As generative audio and video become routine, so does the need to tell them apart from the real thing. We work on synthetic-media detection and on public-facing AI literacy, including a national deepfake awareness platform funded by the Ministry of Digital Governance.</p>
+									</article>
+									<article class="domain">
+										<h3>AI Infrastructure and Open Science</h3>
+										<p>Making the above usable by others: open-source libraries such as pyAudioAnalysis, deepaudio-x and deepaudio-lab, released datasets and benchmarks, and contributions to national and European AI platforms through PHAROS and DeployAI.</p>
+									</article>
+								</div>
+							</section>
 
-									<h4>Speech analytics</h4>
-									We combine audio and text information from speech signals, to recognize what people say (and how they say it) when interacting between each other for applications such as:
-									<ul>
-										<li> Health and Wellbeing: cognitive decline detection, mental health monitoring, depression estimation
-										<li> Mood and emotion classification
-										<li> Speaking style and public speaking quality analysis
-									</ul>
-
-									<h4>Audio (non-speech) Recognition</h4>
-									<ul>
-										<li> Mouse vocalizations analytics
-										<li> Audio event detection
-										<li> Urban soundscape analysis
-										<li> Audio context classification
-									</ul>
-
-									<h4>Environment &amp; Bioacoustics</h4>
-									<ul>
-										<li> Urban soundscape quality assessment and monitoring
-										<li> Wildlife and bioacoustic signal analysis
-										<li> Environmental sound event detection
-									</ul>
-
-									<h4>Defence &amp; Security</h4>
-									<ul>
-										<li> Acoustic threat detection using few-shot and self-supervised learning
-										<li> Adversarial robustness evaluation of audio AI systems
-										<li> Frugal AI for resource-constrained defence applications
-									</ul>
-
-									<h4>Image retrieval and classification</h4>
-									<ul>
-										<li> Semantic image classification and segmentation
-										<li> Photography aesthetics recognition
-									</ul>
-
-									<h4>Other multimodal data analytics</h4>
-											
+							<section>
+								<h2>Methodological foundations</h2>
+								<p>Running underneath all four areas is a shared methodological agenda, which is also where our
+									most general results sit: self-supervised and few-shot representation learning, the theory and
+									objectives of contrastive learning (ICML 2024, ICML 2026, NeurIPS workshops), generative
+									modelling with diffusion and flow matching, robustness and calibration under distribution
+									shift, and multimodal fusion. Methods developed for one modality routinely move to another,
+									which is the main reason the group keeps all four areas under one roof.</p>
+								<ul class="actions">
+									<li><a href="pub.html" class="button primary small">Selected publications</a></li>
+									<li><a href="projects.html" class="button small">Projects</a></li>
+								</ul>
+							</section>
 
 						</div>
 					</div>
