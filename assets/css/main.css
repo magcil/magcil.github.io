@@ -2833,6 +2833,56 @@ input, select, textarea {
 		padding: 0em 0 0.1em 0 ;
 	}
 
+		#header > .inner {
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			-ms-flex-align: center;
+			align-items: center;
+		}
+
+		#header .affiliations {
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-align: center;
+			align-items: center;
+			margin: 0 0 2.5em 1.75em;
+			padding-left: 1.75em;
+			border-left: solid 1px rgba(210, 215, 217, 0.75);
+		}
+
+			#header .affiliations a {
+				border-bottom: 0;
+				line-height: 0;
+			}
+
+				#header .affiliations a + a {
+					margin-left: 1.5em;
+				}
+
+				#header .affiliations img {
+					display: block;
+					width: auto;
+					height: 4.25em;
+				}
+
+		@media screen and (max-width: 736px) {
+
+			#header .affiliations {
+				-ms-flex: 0 0 100%;
+				flex: 0 0 100%;
+				margin: -1.5em 0 2.5em 0;
+				padding-left: 0;
+				border-left: 0;
+			}
+
+				#header .affiliations img {
+					height: 3.25em;
+				}
+
+		}
+
 		#header .logo {
 			display: block;
 			border-bottom: 0;
