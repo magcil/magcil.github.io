@@ -3269,8 +3269,7 @@ input, select, textarea {
 
 		.pub-list li {
 			margin: 0 0 1.5em 0;
-			padding: 0 0 0 1.75em;
-			text-indent: -1.75em;
+			padding: 0;
 			font-size: 0.95em;
 			line-height: 1.65;
 		}
