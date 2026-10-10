@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://magcil.github.io/sitemap.xml
