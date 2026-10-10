@@ -3410,6 +3410,27 @@ input, select, textarea {
 					content: ".";
 				}
 
+	.areas .area-more {
+		margin: -0.5em 0 0 0;
+		font-size: 0.8em;
+		line-height: 1.8;
+		color: #7f888f;
+	}
+
+		.areas .area-more b {
+			color: #3d4449;
+		}
+
+	.pub-list.compact {
+		margin: 0 0 1.5em 0;
+	}
+
+		.pub-list.compact li {
+			margin: 0 0 0.85em 0;
+			font-size: 0.8em;
+			line-height: 1.6;
+		}
+
 			.pub-list a {
 				margin-left: 0.3em;
 				border-bottom: 0;

@@ -129,4 +129,44 @@
     <loc>https://magcil.github.io/theses/petrogianni_thesis.pdf</loc>
     <priority>0.4</priority>
   </url>
+  <url>
+    <loc>https://magcil.github.io/speech-emotion-robustness.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://magcil.github.io/greek-music-ai.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://magcil.github.io/generative-audio-music-speech-images.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://magcil.github.io/urban-soundscapes.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://magcil.github.io/music-identification.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://magcil.github.io/speech-health-markers.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://magcil.github.io/frugal-robust-audio.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://magcil.github.io/audiovisual-video-understanding.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>
